@@ -2,6 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>MySite</title>
   </head>
@@ -22,31 +23,81 @@
     </header>
 
     <main>
-      <!-- mian-visual -->
+      <!-- main-visual -->
       <div class="main-visual">
-          <p class="main-visual-text main-text">Lorem lpsum</p>
+          <p class="main-visual-text top-text">Lorem lpsum</p>
           <p class="main-visual-text sub-text">simply dummy text of the printing</p>
       </div>
       <!-- portfolio -->
-      <div class="portfolio">
-        <h2 class="portfolio-title">Portfolio</h2>
-        <div class="portfolio-title-border"></div>
-        <p class="portfolio-text">
-          It is a long established fact a render will be distracted by the readable<br>
+      <section class="portfolio main-box">
+          <h2 class="main-heading">Portfolio</h2>
+          <div class="main-title-border"></div>
+          <p class="main-text">
+            It is a long established fact that a render will be distracted by the readable<br>
+            content of a page when looking at its layout.<br>
+            The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters
+          </p>
+          <div class="portfolio-contents">
+            <div class="portfolio-box"></div>
+            <div class="portfolio-box"></div>
+            <div class="portfolio-box"></div>
+            <div class="portfolio-box"></div>
+            <div class="portfolio-box"></div>
+            <div class="portfolio-box"></div>
+          </div>
+      </section>
+      <!-- Feature -->
+      <section class="feature main-box">
+          <h2 class="main-heading">Feature</h2>
+          <div class="main-title-border"></div>
+          <p class="main-text">
+            It is a long established fact that a render will be distracted by the readable<br>
+            content of a page when looking at its layout.<br>
+            The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters
+          </p>
+          <div class="feature-contents">
+            <section class="feature-item">
+              <i class="far fa-address-card"></i>
+              <h3 class="feature-heading">Strength1</h3>
+              <p>Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+            </section>
+            <section class="feature-item">
+              <i class="fas fa-laptop"></i>
+              <h3 class="feature-heading">Strength2</h3>
+              <p>Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+            </section>
+            <section class="feature-item">
+              <i class="fas fa-cogs"></i>
+              <h3 class="feature-heading">Strength3</h3>
+              <p>Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+            </section>
+          </div>
+      </section>
+      <!-- profile -->
+      <section class="profile main-box">
+        <h2 class="main-heading">Profile</h2>
+        <div class="main-title-border"></div>
+        <p class="main-text">
+          It is a long established fact that a render will be distracted by the readable<br>
           content of a page when looking at its layout.<br>
           The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters
         </p>
-        <div class="portfolio-contents">
-          <div class="portfolio-box"></div>
-          <div class="portfolio-box"></div>
-          <div class="portfolio-box"></div>
-          <div class="portfolio-box"></div>
-          <div class="portfolio-box"></div>
-          <div class="portfolio-box"></div>
+        <div class="profile-contents">
+          <div class="profile-image-box">
+            <img class="profile-image" src="img/my-icon.jpg">
+          </div>
+          <div class="profile-item-box">
+            <section class="profile-item">
+              <h4 class="profile-item-heading">MyName</h4>
+              <p class="profile-text my-name">Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+            </section>
+            <section class="profile-item">
+              <h4 class="profile-item-heading">MySkills</h4>
+              <p class="profile-text my-skills">HTML/CSS/JavaScript/JQuery/Photoshop</p>
+            </section>
+          </div>
         </div>
-      </div>
-
-
+      </section>
     </main>
     <footer>
 
