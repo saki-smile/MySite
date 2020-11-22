@@ -170,7 +170,7 @@ i {
 }
 
 .profile-image-box {
-  width: 512px;
+  width: 50%;
   text-align: center;
 }
 
@@ -181,7 +181,7 @@ i {
 }
 
 .profile-item-box {
-  width: 512px;
+  width: 50%;
 }
 
 .profile-item-heading {
@@ -195,4 +195,61 @@ i {
 
 .my-name {
   padding-bottom: 20px;
+}
+
+.contact-contents {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.contact-box {
+  width: 50%;
+}
+
+.contact-item-heading {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-item {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.contact-text {
+  color: black;
+}
+
+.mail {
+  padding-bottom: 20px;
+}
+
+.sns-box {
+  width: 50%;
+}
+
+.sns-item {
+  width: 190px;
+  margin: 0 auto;
+}
+
+.contact-icon i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.contact-icon i:last-child {
+  margin-right: 0px;
+}
+
+footer {
+  background-color: #ec715f;
+  height: 70px;
+}
+
+.footer-text {
+  color: #fafafa;
+  text-align: center;
+  line-height: 70px;
 }
