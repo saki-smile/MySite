@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-  /* header */
+/* header */
 header {
   background-color: #ec715f;
   height: 70px;
@@ -17,7 +17,7 @@ header {
 
 .header-item i {
   color: #fafafa;
-  border :1px solid #fafafa;
+  border: 1px solid #fafafa;
   margin: 5px;
   padding: 10px;
   display: none;
@@ -110,7 +110,7 @@ header {
   background-position: center;
 }
 
-.portfolio-box:nth-child(n+4) {
+.portfolio-box:nth-child(n + 4) {
   margin-bottom: 0px;
 }
 
@@ -226,7 +226,7 @@ header {
 
 .contact-item-heading {
   font-size: 20px;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .contact-item {
@@ -236,9 +236,11 @@ header {
 
 .contact-text {
   color: black;
+  padding-bottom: 20px;
 }
 
 .mail {
+  display: inline-block;
   padding-bottom: 20px;
 }
 
@@ -320,7 +322,7 @@ footer {
     margin-left: auto;
   }
 
-  .portfolio-box:nth-child(n+4) {
+  .portfolio-box:nth-child(n + 4) {
     margin-bottom: 10px;
   }
 
@@ -338,6 +340,73 @@ footer {
 
   .portfolio-box:nth-child(5) {
     display: none;
+  }
+
+  .feature-contents {
+    width: 90%;
+    display: block;
+  }
+
+  .feature-item {
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+  }
+
+  .feature-item:last-child {
+    margin-right: auto;
+  }
+
+  .feature-item:first-child {
+    margin-top: 0px;
+  }
+
+  .profile-contents {
+    width: 90%;
+    display: block;
+  }
+
+  .profile-image-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .profile-item-box {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .my-name {
+    padding-bottom: 20px;
+  }
+
+  .contact-contents {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+
+  .contact-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-item {
+    width: 130px;
+    margin: 0 auto;
+  }
+
+  .tel {
+    display: inline-block;
+    padding-bottom: 20px;
+  }
+
+  .sns-box {
+    width: 90%;
+    margin: 0 auto;
   }
 
 }
