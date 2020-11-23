@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+  /* header */
 header {
   background-color: #ec715f;
   height: 70px;
@@ -13,6 +13,14 @@ header {
   margin: 0 auto;
   width: 1024px;
   display: flex;
+}
+
+.header-item i {
+  color: #fafafa;
+  border :1px solid #fafafa;
+  margin: 5px;
+  padding: 10px;
+  display: none;
 }
 
 .blog-image {
@@ -145,7 +153,7 @@ header {
   margin-right: 0px;
 }
 
-i {
+.feature-item i {
   font-size: 60px;
 }
 
@@ -245,11 +253,32 @@ i {
 
 footer {
   background-color: #ec715f;
-  height: 70px;
+  height: 60px;
 }
 
 .footer-text {
   color: #fafafa;
   text-align: center;
-  line-height: 70px;
+  line-height: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 50px;
+  }
+
+  .header-item {
+    width: 90%;
+  }
+  .blog-image {
+    height: 50px;
+  }
+
+  .header-item i {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
+  }
 }
